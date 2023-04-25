@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #000000;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Survey2k23</title>
+
+    <link rel="stylesheet" href="./designs.css">
+
+</head>
+
+<body>
+
+    <!-- <h1 id="mainheading" style="background-color: #ff03b3;">IPL Survey - Give your Opinion😎 </h1> -->
+    <hr size="20" color="FC4F00">
+    <h2 id="mainheading" aria-setsize="10" style="background-color: #ffffff; color: #000000;">IPL Survey - Give your Opinion😎 </h2>
+    <hr size="20" color="green">
+    <img src="https://img.cricketworld.com/images/f-123459/ipl-logo-22.jpg" alt="img not loaded" height="235"
+        width="295">
+    <img src="https://media.tenor.com/jOQd7oBv5okAAAAd/msd-helicopter-shot-gif.gif" alt="gif error in loading"
+        width="295" height="235">
+    <img src="https://img.cricketworld.com/images/f-123459/ipl-logo-22.jpg" alt="img not loaded" height="235"
+        width="295">
+    <hr size="20" color="FC4F00">
+    <hr size="20" color="white">
+    <hr size="20" color="green">
+    <form action = "backend.js">
+        <label class="qn" for="1">Name : </label>
+        <div>
+            <input type="text" name="myName" id="1">
+        </div><br>
+        <div>
+            <label class="qn" for="2">Age : </label><br>
+            <input type="number" name="myAge" id="2">
+        </div><br>
+        <div>
+            <label class="qn" for="3">Eligibility : </label>
+            <input type="checkbox" name="myEligibility" id="3" checked>
+        </div><br>
+        <div>
+            <label class="qn" for="selection">Your Fav Team : </label>
+            <select name="favTeam" id="selection">
+                <option value="Mi" selected>MI</option>
+                <option value="Chennai">CSK</option>
+                <option value="RCB">RCB</option>
+                <option value="LSG">LSG</option>
+                <option value="GT">GT</option>
+                <option value="DC">DC</option>
+                <option value="RR">RR</option>
+                <option value="PBKS">PBKS</option>
+                <option value="KKR">KKR</option>
+                <option value="SRH">SRH</option>
+            </select>
+        </div><br>
+        <div>
+            <label class="qn" id="Gender" for="gender">Gender : </label>
+            <input  type="radio" name="Gender" id="Gender : " > <em  class="addcolourtogender"> Male </em>
+            <input type="radio" name="Gender" id="Gender : "><em class="addcolourtogender"> Female </em>
+            <input type="radio" name="Gender" id="Gender : "><em class="addcolourtogender"> Other </em>
+
+        </div><br>
+        <div>
+            <hr color="white" size="5">
+            <h3 style="color: #ffffff;">Stats📊</h3>
+           
+            <table>
+                <thead>
+                    <tr>
+                        <th>Team &nbsp;&nbsp;</th>
+                        <th> (n)Title's &nbsp &nbsp</th>
+                    </tr>
+                </thead>
+                <tbody class="names">
+                    <tr>
+                        <td>MI</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>CSK&nbsp; &nbsp</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>RCB&nbsp; &nbsp</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>LSG&nbsp; &nbsp</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>GT&nbsp; &nbsp</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>DC&nbsp; &nbsp</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>RR&nbsp; &nbsp</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>PBKS&nbsp; &nbsp</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>KKR&nbsp; &nbsp</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>SRH&nbsp; &nbsp</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <hr color="white" size="5">
+            <div>
+                <h3 id="pt">This year <em>POINTS TABLE link below 👇🏻</em></h3>
+                <a href="https://www.outlookindia.com/ipl/pointtable" target="_blank">Refer to points table of TATA
+                    IPL2k23</a>
+            </div><br>
+
+            <div>
+                <!-- Which team wins TATA IPL2k23🤔 and why?Give your opinion<input type="text" name="winner" id="op"> -->
+                <em style="color: #ffffff; font-size: x-large;">Which team wins TATA IPL2k23🤔 and why?Give your opinion---Enter the team name <input type="text" name="winner" id="op"></em>
+                <br><textarea name="winner" id="op" cols="45"
+                    rows="10" itemid="op"></textarea>
+            </div><br>
+            <div>
+                <input id="send" type="submit" value="Submit now">
+                <input id="send" type="reset" value="Reset now">
+    </form>
+    </div><br><br>
+    <div>
+        <img src="https://i.pinimg.com/originals/88/66/7e/88667eaf29f1bbf12d64abaaeae6caa2.gif" alt="gif" height="150" width="350">
+    </div>
+
+</body>
+
+</html>

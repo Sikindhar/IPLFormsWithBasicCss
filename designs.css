@@ -1,0 +1,29 @@
+#mainheading{
+    color: rgb(255, 255, 255);
+}
+
+#pt{
+    color: aqua;
+}
+
+.qn{
+   
+    background-color: black;
+    color: rgb(255, 255, 255);
+    
+}
+
+.addcolourtogender{
+   color: white;
+}
+
+.names{
+
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: blue;
+    font-size: x-large;
+}
